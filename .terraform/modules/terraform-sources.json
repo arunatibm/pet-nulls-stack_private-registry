@@ -1,0 +1,21 @@
+{
+  "terraform_source_bundle": 1,
+  "packages": [
+    {
+      "source": "https://archivist.staging.terraform.io/v1/object/dmF1bHQ6djc6K3dOdkZKRDZNSVlrLzNBSjRSSVhmTTNaeEdXQklWRURONlBVSStUNVluUWZ6THJVZmxOK2xoeHhTWmFtSnhvNW1rTm5oSGdDY2pjU3E4eGhlU0xIeDlpWDltU1NSdFlEUWVWZTNhelhEVDYrSEJLQktxVEFsVHdXcWNIcXBGb2QxRkRmc1Z6WU41dkxCK1ZYcko0Nk56bW1iTUNjOEpZTW1LVURqcnJRVkpOS29NZ24rMVlaSm8xc1BORkJnYkw2cno3VmMwVFMzVW1leWpnOU1BMHlJdXNMTUtvWmNqZHlkSWVPMzlRdVBJWi90WHlVVmZwWDFLZXVsS0lvWXB0b3hic3ZQdFhFRzA2emt5Mm96bk0xUkU2TlJrdFNZUG1MNllQV2VSVFIrbjJtZXVvRlpSQk1SQ2VuUUxvZXliWmswSyt5ZlpXRGFiMkhVN3JFdEtzdUVQTmZ6QTNJNzFndHVBWWJRMWpIWnZnT1M1U21GMUd5eW4wPQ?archive=tgz",
+      "local": "FKebf-C5hC1cnZqH41smulFJAWZ8ARjdC6f0DymY8FM",
+      "meta": {}
+    }
+  ],
+  "components": [
+    {
+      "source": "app.staging.terraform.io/arun/pet-nulls-stack",
+      "versions": {
+        "1.0.0": {
+          "source": "https://archivist.staging.terraform.io/v1/object/dmF1bHQ6djc6K3dOdkZKRDZNSVlrLzNBSjRSSVhmTTNaeEdXQklWRURONlBVSStUNVluUWZ6THJVZmxOK2xoeHhTWmFtSnhvNW1rTm5oSGdDY2pjU3E4eGhlU0xIeDlpWDltU1NSdFlEUWVWZTNhelhEVDYrSEJLQktxVEFsVHdXcWNIcXBGb2QxRkRmc1Z6WU41dkxCK1ZYcko0Nk56bW1iTUNjOEpZTW1LVURqcnJRVkpOS29NZ24rMVlaSm8xc1BORkJnYkw2cno3VmMwVFMzVW1leWpnOU1BMHlJdXNMTUtvWmNqZHlkSWVPMzlRdVBJWi90WHlVVmZwWDFLZXVsS0lvWXB0b3hic3ZQdFhFRzA2emt5Mm96bk0xUkU2TlJrdFNZUG1MNllQV2VSVFIrbjJtZXVvRlpSQk1SQ2VuUUxvZXliWmswSyt5ZlpXRGFiMkhVN3JFdEtzdUVQTmZ6QTNJNzFndHVBWWJRMWpIWnZnT1M1U21GMUd5eW4wPQ?archive=tgz",
+          "deprecation": null
+        }
+      }
+    }
+  ]
+}
