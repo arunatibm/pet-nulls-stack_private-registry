@@ -20,7 +20,7 @@ required_providers {
 }
 
 stack "pet-nulls-stack" {
-    source = "app.staging.terraform.io/arun/pet-nulls-stack"
+    source = "app.terraform.io/arun/pet-nulls-stack"
     version = "1.0.0"
 
     inputs = {
