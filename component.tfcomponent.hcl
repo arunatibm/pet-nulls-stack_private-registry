@@ -28,3 +28,15 @@ stack "pet-nulls-stack" {
         prefix = var.prefix
     }
 }
+
+component "my-pet" {
+  source = "./pet"
+
+  inputs = {
+    prefix = var.prefix
+  }
+
+  providers = {
+    random = provider.random.this
+  }
+}
