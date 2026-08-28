@@ -20,7 +20,7 @@ required_providers {
 }
 
 stack "pet-nulls-stack" {
-    source = "app.staging.terraform.io/arun/pet-nulls-stack"
+    source = "xhwf-fdo-docker-mounted-disk-install.terraform-enterprise-dev.aws.ptfedev.com/arun/pet-nulls-stack"
     version = "1.0.0"
 
     inputs = {
