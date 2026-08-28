@@ -19,6 +19,8 @@ required_providers {
   }
 }
 
+provider "random" "this" {}
+
 stack "pet-nulls-stack" {
     source = "tfcdev-0b06bcb7.ngrok.app/arun/pet-nulls-stack"
     version = "1.0.0"
@@ -27,4 +29,16 @@ stack "pet-nulls-stack" {
         instances = var.instances
         prefix = var.prefix
     }
+}
+
+component "my-pet" {
+  source = "./pet"
+
+  inputs = {
+    prefix = var.prefix
+  }
+
+  providers = {
+    random = provider.random.this
+  }
 }
